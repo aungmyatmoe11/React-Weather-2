@@ -28,8 +28,8 @@ export function useGeolocation() {
 
     navigator.geolocation.getCurrentPosition(
       (position) => {
-        console.log('position.coords.latitude',position.coords.latitude)
-        console.log('position.coords.longitude',position.coords.longitude)
+        // console.log('position.coords.latitude',position.coords.latitude)
+        // console.log('position.coords.longitude',position.coords.longitude)
         setLocationData({
           coordinates: {
             lat: position.coords.latitude,
